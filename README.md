@@ -4,16 +4,16 @@ Pytorch code for paper "**Frequency Suppression and Reinforcement for Visible-In
 
 The complete code will be released only after we receive the official notice of acceptance.
 
-**Visible-Infrared Person Re-identifification**".
+**Visible-Infrared Person Re-identifification**
 
 ### 1. Results
 We adopt the Transformer-based ViT-Base/16 and CNN-based AGW [3] as backbone respectively.
 
 |Datasets    | Backbone | mAP |  mINP |   Rank@1  |  Model|
 | --------   | -----    | -----  |  -----  | ----- |:----:|
-| #SYSU-MM01 | ViT | ~ 73.44% | ~ 64.28% | ~72.94% |[GoogleDrive](  https://drive.google.com/file/d/1lO8O22s7UE0X2Ro3gUvkqG4hC4VLuap1/view?usp=sharing  )
-| #RegDB  | ViT | ~ 94.88% | --- | ~96.92% | [GoogleDrive]       (  https://drive.google.com/file/d/1S6_JYnWrRegiVI9fgoYU3Yvt483dlzZc/view?usp=sharing  )
-| #LLCM  | ViT | ~ 66.49% | ---| 62.59% | [GoogleDrive]          (  https://drive.google.com/file/d/1xBCkWisT_u9a_q_7Jk-lH-OcHDbUNS0j/view?usp=sharing  )
+| #SYSU-MM01 | ViT | ~ 73.44% | ~ 64.28% | ~72.94% | [GoogleDrive] (  https://drive.google.com/file/d/1lO8O22s7UE0X2Ro3gUvkqG4hC4VLuap1/view?usp=sharing  ) |
+| #RegDB  | ViT | ~ 94.88% | --- | ~96.92% | [GoogleDrive]         (  https://drive.google.com/file/d/1S6_JYnWrRegiVI9fgoYU3Yvt483dlzZc/view?usp=sharing  ) |
+| #LLCM  | ViT | ~ 66.49% | ---| 62.59% | [GoogleDrive]            (  https://drive.google.com/file/d/1xBCkWisT_u9a_q_7Jk-lH-OcHDbUNS0j/view?usp=sharing  ) |
 
 **\*Both of these models may have some fluctuation due to random spliting. AGW\* means AGW uses random erasing.  The results might be better by finetuning the hyper-parameters.**
 
